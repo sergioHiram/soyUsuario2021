@@ -11,7 +11,8 @@ html {
     padding: 0;
     padding-top: 5.5rem;
     overflow-x: hidden;
-    background-color: #fbf6f3;
+    background-color: #edefef;
+    color: #3E5B5A !important;
   }
 
   h1,
@@ -20,7 +21,7 @@ html {
   h4,
   h5{
     font-family: 'Roboto Condensed', sans-serif;
-    color: #633f5b;
+    color: #FAC263;
     font-weight: bold;
   }
 
@@ -34,11 +35,11 @@ html {
       color: #000;
   }
   a:hover{
-    color: #f1a656;
+    color: #FAC263;
   }
 
   hr{
-      border: 2px solid #f1a656;
+      border: 2px solid #FAC263;
   }
 
   .footer{
@@ -50,16 +51,17 @@ html {
 
   .text-footer{
       font-size: .8em;
+      color: #619A9A;
   }
 
   .social{
       margin: 0 5px;
-      color: #36313f;
+      color: #619A9A;
   }
 
   .navbar{
       background-color: #FFF;
-      color: #36313f!important;
+      color: #84AFAE !important;
       
   }
 
@@ -93,32 +95,32 @@ html {
   .tituloIntro1{
     font-size: 1.2rem;
     color:#FFF;
-    text-align: justify;
+    text-align: center !important;
 }
 
 .tituloIntro2{
-    color: #f1a656;
+    color: #FAC263;
     text-align: center;
     font-size: 3rem;
 }
 
 .active{
     text-decoration: underline !important;
-    text-decoration-color: #f1a656 !important;
+    text-decoration-color: #FAC263 !important;
     text-decoration-thickness: 3px !important;
-    color: #36313f!important;
+    color: #619A9A!important;
 }
 
 .nav-link:hover{
     text-decoration: underline !important;
-    text-decoration-color: #f1a656 !important;
+    text-decoration-color: #FAC263 !important;
     text-decoration-thickness: 3px !important;
-    color: #36313f!important;
+    color: #619A9A!important;
 }
 
 .dropdown-item:hover{
     text-decoration: underline !important;
-    text-decoration-color: #f1a656 !important;
+    text-decoration-color: #FAC263 !important;
     text-decoration-thickness: 3px !important;
     background-color: transparent !important;
     cursor: pointer;
@@ -134,17 +136,17 @@ html {
 }
 
 .card{
-    background-color: #fbf6f3;
+    background-color: #edefef;
     border-radius: 25px;
-    color: #36313f;
+    color: #84AFAE;
     text-transform: uppercase;
     border: 1px solid transparent;
 }
 
 .card:hover{
-    background-color: #f1a656;
+    background-color: #FAC263;
     border: 0 !important;
-    color: #fff;
+    color: #619A9A !important;
 }
 
 .card-body:hover{
@@ -166,6 +168,7 @@ html {
 
 .textoIntro{
     font-size: 1.5rem;
+    color: #619A9A;
 }
 
 .anotaciones{
@@ -173,7 +176,7 @@ html {
 }
 
 .btnCustom{
-    background-color: #f1a656;
+    background-color: #FAC263;
     color: #FFF;
 }
 
@@ -184,17 +187,17 @@ html {
 
 .btnCustomInicio{
     background-color:transparent;
-    color: #f1a656;
-    border: 1px solid #f1a656;
+    color: #FAC263;
+    border: 1px solid #FAC263;
     font-size: 1rem;
     border-radius: 15px;
     padding: 10px;
 }
 
 .btnCustomInicio:hover{
-    background-color:#f1a656;
+    background-color:#FAC263;
     color: #FFF;
-    border: 1px solid #f1a656;
+    border: 1px solid #FAC263;
 }
 
 .modal-content{
@@ -203,7 +206,7 @@ html {
 }
 
 .close{
-    color:#f1a656;
+    color:#FAC263;
     font-size: 3rem;
     text-shadow: 0 1px 0 transparent;
     opacity: 1;
@@ -227,11 +230,12 @@ html {
 
 .supClickIntro{
     cursor: pointer;
-    color: #f1a656;
+    color: #FAC263;
 }
 
 .subPageTitle{
-    color: #633f5b;
+    color: #FAC263;
+    
 }
 
 

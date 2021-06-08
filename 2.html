@@ -6,15 +6,21 @@
                 <div class="row">
                     <div class="col-12 align-self-center">
                         <img src="img/img-2-titulo.png" class="img-fluid d-block mx-auto" width="100%" alt="">
-                        <br><br><br>
-                        <h2 class="subPageTitle">RIESGOS</h2>
+                         <br><br><br>
+                        <h2 class="subPageTitle"h3>APARTADO 2 <br> SERVICIOS MÓVILES</h2>
                     </div>
                 </div>
                 <br><br>
                 <div class="row">
-                    <div class="col-12">    
-                        <p>Dada la contingencia sanitaria referente al virus SARS-CoV2 (COVID-19), la recepción de inconformidades en el sistema Soy Usuario tuvo un incremento del 56%, respecto del año 2019. Si bien se trató de un hecho sin precedentes, es importante señalar que la atención a los folios se vio afectada. En este sentido, es importante señalar que no se dejaron folios sin asesoría y la remisión de más de un correo de seguimiento también dependió de la retroalimentación de los usuarios.</p>
-                        <p>En relación a los proveedores de servicios de telecomunicaciones si bien las empresas firman un documento de entendimiento para uso del sistema, no hay consecuencias ante la falta de atención o retraso en los tiempos, lo que afecta directamente a los usuarios de la plataforma. También se menciona que no todas las empresas han querido suscribirse al sistema Soy Usuario.</p>
+                    <div class="col-12">
+                        <p>La telefonía móvil es el servicio más reportado, seguido de la combinación teléfono móvil más internet móvil.</p>
+                        <p>Para los operadores que recibieron más de 100 folios, Telcel fue el primer lugar, seguido de Movistar y AT&T.
+                        </p>
+                        <p>Respecto de las empresas con 99 folios o menos, el primer lugar de atención, lo obtuvieron Flash Mobile, Freedompop, Vasanta, Ads Mobile, AlmaTel y Miio.
+                        </p>
+                        <p>El tiempo promedio de atención fue de 14.6 días hábiles, siendo Ads Mobile la empresa que respondió en el menor tiempo, mientras que Virgin Mobile fue la que más tardó. Las empresas que no dieron atención en el periodo fueron Compartfon, Diveracy y Coppel.
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -24,13 +30,31 @@
     <div class="col-md-6 col-sm-6 fondo mh-100 overflow-auto py-2 mainRight" id="">
         <div class="container-fluid topClick" style="margin-bottom: 200px;">
             <div class="row justify-content-center">
-                <div class="col-7">
-                    <img src="img/thumb-g1-2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
+                <div class="col-4">
+                    <img src="img/thumb-g13-Ap2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
                     <br>
                     <button class="btn btnCustom float-right" id="derechos1">Ver más grande</button>
                 </div>
-
+                <div class="col-4">
+                    <img src="img/thumb-g16-Ap2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
+                    <br>
+                    <button class="btn btnCustom float-right" id="derechos2">Ver más grande</button>
+                </div>
             </div>
+            <br><br>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <img src="img/thumb-g17-Ap2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
+                    <br>
+                    <button class="btn btnCustom float-right" id="derechos3">Ver más grande</button>
+                </div>
+                <div class="col-4">
+                    <img src="img/thumb-g20-Ap2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
+                    <br>
+                    <button class="btn btnCustom float-right" id="derechos4">Ver más grande</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -49,16 +73,25 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item" id="f1">
-                            <img src="img/Gale-g1-2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
+                            <img src="img/Gale-g13-Ap2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
+                        </div>
+                        <div class="carousel-item" id="f2">
+                            <img src="img/Gale-g16-Ap2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
+                        </div>
+                        <div class="carousel-item" id="f3">
+                            <img src="img/Gale-g17-Ap2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
+                        </div>
+                        <div class="carousel-item" id="f4">
+                            <img src="img/Gale-g20-Ap2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
                         </div>
                     </div>
 
-                    <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
                     <a class="carousel-control-next" href="#demo" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
-                    </a> -->
+                    </a>
 
                 </div>
             </div>
@@ -73,6 +106,24 @@
         $("#derechosModal").modal("toggle")
         $(".carousel-item").removeClass("active")
         $("#f1").addClass("active")
+    })
+
+    $("#derechos2").click(function () {
+        $("#derechosModal").modal("toggle")
+        $(".carousel-item").removeClass("active")
+        $("#f2").addClass("active")
+    })
+
+    $("#derechos3").click(function () {
+        $("#derechosModal").modal("toggle")
+        $(".carousel-item").removeClass("active")
+        $("#f3").addClass("active")
+    })
+
+    $("#derechos4").click(function () {
+        $("#derechosModal").modal("toggle")
+        $(".carousel-item").removeClass("active")
+        $("#f4").addClass("active")
     })
 
 </script>
