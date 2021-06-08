@@ -1,0 +1,78 @@
+<div class="row justify-content-center h-100 flex-grow-1 overflow-hidden min-vh-100" id="topClick">
+
+    <div class="col-md-6 col-sm-6 mh-100 overflow-auto py-2 mainLeft topClick" id="">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 align-self-center">
+                        <img src="img/img-2-titulo.png" class="img-fluid d-block mx-auto" width="100%" alt="">
+                        <br><br><br>
+                        <h2 class="subPageTitle">RIESGOS</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-12">    
+                        <p>Dada la contingencia sanitaria referente al virus SARS-CoV2 (COVID-19), la recepción de inconformidades en el sistema Soy Usuario tuvo un incremento del 56%, respecto del año 2019. Si bien se trató de un hecho sin precedentes, es importante señalar que la atención a los folios se vio afectada. En este sentido, es importante señalar que no se dejaron folios sin asesoría y la remisión de más de un correo de seguimiento también dependió de la retroalimentación de los usuarios.</p>
+                        <p>En relación a los proveedores de servicios de telecomunicaciones si bien las empresas firman un documento de entendimiento para uso del sistema, no hay consecuencias ante la falta de atención o retraso en los tiempos, lo que afecta directamente a los usuarios de la plataforma. También se menciona que no todas las empresas han querido suscribirse al sistema Soy Usuario.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-sm-6 fondo mh-100 overflow-auto py-2 mainRight" id="">
+        <div class="container-fluid topClick" style="margin-bottom: 200px;">
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <img src="img/thumb-g1-2.png" class="d-block mx-auto img-fluid imgIntroduccion" width="100%" alt="">
+                    <br>
+                    <button class="btn btnCustom float-right" id="derechos1">Ver más grande</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- The Modal -->
+<div class="modal fade" id="derechosModal">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <br><br>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item" id="f1">
+                            <img src="img/Gale-g1-2.png" class="mx-auto d-block img-fluid galleryModal" alt="Figura 1">
+                        </div>
+                    </div>
+
+                    <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a> -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $("#derechos1").click(function () {
+        $("#derechosModal").modal("toggle")
+        $(".carousel-item").removeClass("active")
+        $("#f1").addClass("active")
+    })
+
+</script>

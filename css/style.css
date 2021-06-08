@@ -1,0 +1,254 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 5.5rem;
+    overflow-x: hidden;
+    background-color: #fbf6f3;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #633f5b;
+    font-weight: bold;
+  }
+
+  p{
+    font-family: 'Roboto', sans-serif; 
+    text-align: justify !important;
+  }
+
+  a{
+      text-decoration: none!important;
+      color: #000;
+  }
+  a:hover{
+    color: #f1a656;
+  }
+
+  hr{
+      border: 2px solid #f1a656;
+  }
+
+  .footer{
+      background-color: #FFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .text-footer{
+      font-size: .8em;
+  }
+
+  .social{
+      margin: 0 5px;
+      color: #36313f;
+  }
+
+  .navbar{
+      background-color: #FFF;
+      color: #36313f!important;
+      
+  }
+
+  .nav-link{
+      padding: 0 18px !important;
+      font-size: 1.1rem;
+  }
+
+  .fondo{
+      background-image: url("../img/fondo-gral.png");
+      margin: 0;
+      padding: 0;
+      background-size:100% 100%;
+      background-repeat: no-repeat;
+  }
+
+  .fondo1{
+    background-image: url("../img/fondo-cuadri-inicio.png");
+    margin: 0;
+    padding: 0;
+}
+
+.fondointro{
+    background-image: url("../img/fondo-intro.png");
+    margin: 0;
+    padding: 0;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+  .tituloIntro1{
+    font-size: 1.2rem;
+    color:#FFF;
+    text-align: justify;
+}
+
+.tituloIntro2{
+    color: #f1a656;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.active{
+    text-decoration: underline !important;
+    text-decoration-color: #f1a656 !important;
+    text-decoration-thickness: 3px !important;
+    color: #36313f!important;
+}
+
+.nav-link:hover{
+    text-decoration: underline !important;
+    text-decoration-color: #f1a656 !important;
+    text-decoration-thickness: 3px !important;
+    color: #36313f!important;
+}
+
+.dropdown-item:hover{
+    text-decoration: underline !important;
+    text-decoration-color: #f1a656 !important;
+    text-decoration-thickness: 3px !important;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.cardsIntro{
+    margin-top: 20px;
+    border: 0 !important;
+}
+
+.cardsIntro:hover{
+    border: 0 !important;
+}
+
+.card{
+    background-color: #fbf6f3;
+    border-radius: 25px;
+    color: #36313f;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.card:hover{
+    background-color: #f1a656;
+    border: 0 !important;
+    color: #fff;
+}
+
+.card-body:hover{
+    border: 0 !important;
+}
+
+.iconosIntro{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.textoIntro{
+    font-size: 1.5rem;
+}
+
+.anotaciones{
+    font-size: .7em;
+}
+
+.btnCustom{
+    background-color: #f1a656;
+    color: #FFF;
+}
+
+
+.rowMainMain{
+    margin-top: 50px;
+}
+
+.btnCustomInicio{
+    background-color:transparent;
+    color: #f1a656;
+    border: 1px solid #f1a656;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btnCustomInicio:hover{
+    background-color:#f1a656;
+    color: #FFF;
+    border: 1px solid #f1a656;
+}
+
+.modal-content{
+    background-color:transparent;
+    border:0!important;
+}
+
+.close{
+    color:#f1a656;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 transparent;
+    opacity: 1;
+}
+
+.modal-dialog{
+    margin-top: 0!important;
+}
+
+.modal-body{
+    padding: 0!important;
+}
+
+.galleryModal{
+    max-width: 60% !important;
+}
+
+.topClick{
+    margin-top:50px;
+}
+
+.supClickIntro{
+    cursor: pointer;
+    color: #f1a656;
+}
+
+.subPageTitle{
+    color: #633f5b;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next{
+    opacity: 1!important;
+
+@media (max-width: 550px) { 
+
+    .btnCustomInicio{
+        font-size: .5rem !important;
+    }
+
+}
+
+}
+
+
+

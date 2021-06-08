@@ -1,0 +1,138 @@
+<div class="row justify-content-center  min-vh-100 " id="topClick" >
+    <div class="col-md-6 col-sm-6 fondo mh-100 overflow-auto py-2 mainLeft " id="">
+        <div class="container-fluid" style="margin-bottom: 200px;">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <img src="img/icono-inicio.png" class="d-block mx-auto img-fluid" id="iconoInicioImg" alt="" style="display:none!important">
+                    <h1 class="tituloIntro2" style="display:none">INFORME ANUAL 2020</h1>
+                    <p class="tituloIntro1" style="display:none">Derechos, riesgos, intereses, preferencias, tendencias o patrones de consumo de los usuarios</p>
+
+                    <br><br>
+                    <div class="row justify-content-center" id="botonesInicio" style="display:none">
+                        <div class="col-6">
+                            <a href="http://www.ift.org.mx/sites/default/files/contenidogeneral/usuarios-y-audiencias/noresidencial21.pdf" class="btn btnCustomInicio btn-block" target="_blank">Descarga versión PDF</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="http://www.ift.org.mx/usuarios-y-audiencias/reporte-de-informacion-comparable-de-planes-y-tarifas-de-servicios-de-telecomunicaciones-fijas-no-2" class="btn btnCustomInicio btn-block" target="_blank">Descarga archivos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-6 mainRight fondo1 rowMainMain" id="">
+        <div class="row justify-content-center" style="margin-bottom: 200px;">
+            <div class="col-md-10 col-lg-8">
+                <div class="card shadow cardsIntro" id="1">
+                    <div class="card-body mainCardImg">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/icono-intro.png" class="img-fluid iconosIntro" alt="">
+                            </div>
+                            <div class="col-8 align-self-center ">
+                                <h4 class="textoIntro">DERECHOS DE LOS USUARIOS</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow cardsIntro" id="2">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/img-2-inicio.png" class="img-fluid iconosIntro" alt="">
+                            </div>
+                            <div class="col-8 align-self-center">
+                                <h4 class="textoIntro">RIESGOS</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow cardsIntro" id="3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/img-3-inicio.png" class="img-fluid iconosIntro" alt="">
+                            </div>
+                            <div class="col-8 align-self-center">
+                                <h4 class="textoIntro">INTERESES, PREFERENCIAS, TENDENCIAS O PATRONES DE CONSUMO</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    $("#1").click(function(){
+        $(".mainLeft").addClass("animate__animated animate__backOutLeft")
+        $(".mainRight").addClass("animate__animated animate__backOutRight")
+
+        setTimeout(function(){
+            $.ajax({
+                type: "GET",
+                url: "1.html",
+                success: function(data){
+                    $("#main").html(data)
+                    $(".mainLeft").addClass("animate__animated animate__backInLeft")
+                    $(".mainRight").addClass("animate__animated animate__backInRight")
+                    $(".nav-link").removeClass("active")
+                    $("#navbarDropdownMenuLink").addClass("active")
+                    $('html, body').animate({ scrollTop: 0 }, 0);
+                }
+            })
+        }, 250);
+    })
+
+    $("#2").click(function(){
+        $(".mainLeft").addClass("animate__animated animate__backOutLeft")
+        $(".mainRight").addClass("animate__animated animate__backOutRight")
+
+        setTimeout(function(){
+            $.ajax({
+                type: "GET",
+                url: "2.html",
+                success: function(data){
+                    $("#main").html(data)
+                    $(".mainLeft").addClass("animate__animated animate__backInLeft")
+                    $(".mainRight").addClass("animate__animated animate__backInRight")
+                    $(".nav-link").removeClass("active")
+                    $("#navbarDropdownMenuLink").addClass("active")
+                    $('html, body').animate({ scrollTop: 0 }, 0);
+                }
+            })
+        }, 250);
+    })
+
+    $("#3").click(function(){
+        $(".mainLeft").addClass("animate__animated animate__backOutLeft")
+        $(".mainRight").addClass("animate__animated animate__backOutRight")
+
+        setTimeout(function(){
+            $.ajax({
+                type: "GET",
+                url: "3.html",
+                success: function(data){
+                    $("#main").html(data)
+                    $(".mainLeft").addClass("animate__animated animate__backInLeft")
+                    $(".mainRight").addClass("animate__animated animate__backInRight")
+                    $(".nav-link").removeClass("active")
+                    $("#navbarDropdownMenuLink").addClass("active")
+                    $('html, body').animate({ scrollTop: 0 }, 0);
+                }
+            })
+        }, 250);
+    })
+
+</script>
+
+
+
+
